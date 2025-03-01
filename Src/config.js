@@ -37,29 +37,5 @@ module.exports = {
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
     "Mozilla/5.0 (Linux; Android 11; Pixel 5)",
   ],
-};
-    devices: [
 
-        "desktop",
-
-        "mobile",
-
-    ],
-
-    operatingSystems: [
-
-        "windows",
-
-        "linux",
-
-        "macos",
-
-        "android",
-
-        "ios",
-
-    ],
-
-    locales: ["en-US", "en"]
-
-});
+   
