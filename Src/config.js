@@ -1,10 +1,10 @@
 module.exports = {
   DEFAULT_CONFIG: {
-    threads: 100,
-    rpc: 10,
+    threads: 500,
+    rpc: 30,
     duration: 1000,
     timeout: 5000,
-    maxPayloadSize: 1024,
+    maxPayloadSize: 2048,
   },
 
   PROXY_TYPES: {
@@ -38,3 +38,28 @@ module.exports = {
     "Mozilla/5.0 (Linux; Android 11; Pixel 5)",
   ],
 };
+    devices: [
+
+        "desktop",
+
+        "mobile",
+
+    ],
+
+    operatingSystems: [
+
+        "windows",
+
+        "linux",
+
+        "macos",
+
+        "android",
+
+        "ios",
+
+    ],
+
+    locales: ["en-US", "en"]
+
+});
